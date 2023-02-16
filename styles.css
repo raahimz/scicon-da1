@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  flex-shrink: 0;
+
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.rainbow{
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-bg{
+  100%,0%{
+    background-color: rgb(255,0,0);
+  }
+  8%{
+    background-color: rgb(255,127,0);
+  }
+  16%{
+    background-color: rgb(255,255,0);
+  }
+  25%{
+    background-color: rgb(127,255,0);
+  }
+  33%{
+    background-color: rgb(0,255,0);
+  }
+  41%{
+    background-color: rgb(0,255,127);
+  }
+  50%{
+    background-color: rgb(0,255,255);
+  }
+  58%{
+    background-color: rgb(0,127,255);
+  }
+  66%{
+    background-color: rgb(0,0,255);
+  }
+  75%{
+    background-color: rgb(127,0,255);
+  }
+  83%{
+    background-color: rgb(255,0,255);
+  }
+  91%{
+    background-color: rgb(255,0,127);
+  }
+}
+
+@keyframes rainbow{
+  100%,0%{
+    color: rgb(255,0,0);
+  }
+  8%{
+    color: rgb(255,127,0);
+  }
+  16%{
+    color: rgb(255,255,0);
+  }
+  25%{
+    color: rgb(127,255,0);
+  }
+  33%{
+    color: rgb(0,255,0);
+  }
+  41%{
+    color: rgb(0,255,127);
+  }
+  50%{
+    color: rgb(0,255,255);
+  }
+  58%{
+    color: rgb(0,127,255);
+  }
+  66%{
+    color: rgb(0,0,255);
+  }
+  75%{
+    color: rgb(127,0,255);
+  }
+  83%{
+    color: rgb(255,0,255);
+  }
+  91%{
+    color: rgb(255,0,127);
+  }
+}
